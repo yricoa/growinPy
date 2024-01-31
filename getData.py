@@ -5,6 +5,7 @@ from datetime import datetime
 
 initTime = datetime.now().strftime("%y%M%d%h%m%s")
 led = LED(17)
+
 def getInput():
 	isQuit = True
 	initTime = datetime.now()
